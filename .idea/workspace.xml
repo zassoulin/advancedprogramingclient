@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aabaabe-1a1a-4e0a-b60a-ab27739b3b7b" name="Changes" comment="adding server files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/services/ClientModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/services/LocalServerCommunicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/services/ServerCommunicator.java" afterDir="false" />
+    <list default="true" id="0aabaabe-1a1a-4e0a-b60a-ab27739b3b7b" name="Changes" comment="working on overlay">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/services/LocalServerCommunicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/services/LocalServerCommunicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/services/ServerCommunicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/services/ServerCommunicator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -151,7 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683897865147</updated>
       <workItem from="1683897866342" duration="708000" />
-      <workItem from="1684142260550" duration="4323000" />
+      <workItem from="1684142260550" duration="5219000" />
     </task>
     <task id="LOCAL-00001" summary="initializing basics">
       <created>1684156787933</created>
@@ -174,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684156984877</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="working on overlay">
+      <created>1684159198846</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684159198846</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +213,7 @@
     <MESSAGE value="initializing basics" />
     <MESSAGE value="reformating files" />
     <MESSAGE value="adding server files" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding server files" />
+    <MESSAGE value="working on overlay" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on overlay" />
   </component>
 </project>
