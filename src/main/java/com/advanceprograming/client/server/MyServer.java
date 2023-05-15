@@ -7,7 +7,7 @@ import java.net.SocketTimeoutException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class MyServer {
+public class MyServer  implements Server{
 
     int port;
     int maxNumOfThreads;
@@ -19,7 +19,7 @@ public class MyServer {
         this.ch=ch;
         this.maxNumOfThreads = maxNumOfThreads;
     }
-
+    @Override
     public void start() {
         stop=false;
         new Thread(()->startsServer()).start();
@@ -55,7 +55,7 @@ public class MyServer {
             e.printStackTrace();
         }
     }
-
+    @Override
     public void close() { // possible fail here - wait for all clients to finish?
         stop = true;
         //ch.close();

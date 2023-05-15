@@ -4,28 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aabaabe-1a1a-4e0a-b60a-ab27739b3b7b" name="Changes" comment="reformating files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/test/BloomFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/test/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/test/BookScrabbleHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/test/CacheManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/test/CacheReplacementPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/test/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/test/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/test/DictionaryManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/test/IOSearcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/test/LFU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/test/LRU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/test/MainTrain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/test/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/test/ParIOSearcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/test/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/test/Word.java" afterDir="false" />
+    <list default="true" id="0aabaabe-1a1a-4e0a-b60a-ab27739b3b7b" name="Changes" comment="adding server files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/services/ClientModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/services/LocalServerCommunicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/advanceprograming/client/services/ServerCommunicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -62,6 +58,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/advanceprograming/client" />
       <recent name="$PROJECT_DIR$/src/main/java/com/advancedprograming/server" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -154,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683897865147</updated>
       <workItem from="1683897866342" duration="708000" />
-      <workItem from="1684142260550" duration="2533000" />
+      <workItem from="1684142260550" duration="4323000" />
     </task>
     <task id="LOCAL-00001" summary="initializing basics">
       <created>1684156787933</created>
@@ -170,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684156838424</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding server files">
+      <created>1684156984877</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684156984877</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +206,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initializing basics" />
     <MESSAGE value="reformating files" />
-    <option name="LAST_COMMIT_MESSAGE" value="reformating files" />
+    <MESSAGE value="adding server files" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding server files" />
   </component>
 </project>
