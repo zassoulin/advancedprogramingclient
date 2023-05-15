@@ -99,7 +99,7 @@
       <module name="advancedprogramingclient" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.advanceprograming.client.*" />
+          <option name="PATTERN" value="com.advanceprograming.client.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

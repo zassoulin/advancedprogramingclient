@@ -5,4 +5,6 @@ module com.example.demo {
 
     opens com.advanceprograming.client to javafx.fxml;
     exports com.advanceprograming.client;
+    exports com.advanceprograming.client.controller;
+    opens com.advanceprograming.client.controller to javafx.fxml;
 }

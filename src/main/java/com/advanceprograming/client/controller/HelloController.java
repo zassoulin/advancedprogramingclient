@@ -1,4 +1,4 @@
-package com.advanceprograming.client;
+package com.advanceprograming.client.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
